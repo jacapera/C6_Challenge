@@ -1,2 +1,39 @@
-.pytest_cache
+# Archivos de caché de pytest
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 Pipfile
+Pipfile.lock
+
+# Archivos de distribución
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+
+# Archivos de cobertura
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
